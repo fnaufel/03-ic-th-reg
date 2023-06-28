@@ -1,0 +1,5 @@
+/pdf_files/
+/scratch.Rmd
+*.pdf
+/data/table1.csv
+/data/table2.csv
