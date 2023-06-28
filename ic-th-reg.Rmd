@@ -42,8 +42,78 @@ source(
 ```
 
 
-# *Datasets*
+# Leitura dos *datasets*
 
+* Leia os dois arquivos seguintes, armazenando os dados em duas *tibbles*:
+
+  * https://github.com/fnaufel/03-ic-th-reg/raw/master/data/furacoes-velocidade-pressao.csv
+
+  * https://github.com/fnaufel/03-ic-th-reg/raw/master/data/furacoes-prejuizo.csv
+   
+
+# Análise exploratória e visualização
+
+* Nos dois *datasets*, as colunas contêm, para cada furacão:
+
+  * O nome.
+  
+  * O sexo.
+  
+  * O ano.
+  
+  * O mês.
+  
+  * A categoria (quanto maior o valor, mais intenso o furacão).
+  
+  * A velocidade máxima (em km/h).
+  
+  * A pressão central mínima (em milibars).
+  
+  * O prejuízo causado (em dólares americanos corrigidos).
+  
+* Verifique se há dados faltantes e decida o que fazer com eles.
+
+* Calcule estatísticas de interesse.
+
+* Faça perguntas sobre as variáveis e as relações entre elas. 
+
+* Divida os dados em grupos (por ano, por mês etc.) e explore as relações entre os grupos.
+
+* Use o R para calcular as respostas.
+
+* Construa gráficos para visualizar as respostas.
+
+
+# Intervalos de confiança
+
+* Construa intervalos de confiança para
+
+  * A velocidade média de todos os furacões.
+  
+  * A diferença entre o prejuízo médio dos furacões com nome de homem e o prejuízo médio dos furacões com nome de mulher.
+
+
+# Testes de hipótese
+
+* Teste as seguintes hipóteses:
+
+  * Furacões com nome de mulher causam, em média, mais prejuízos do que furacões com nome de homem.
+  
+  * Furacões anteriores a $2005$ causam, em média, prejuízos de valor diferente dos prejuízos causados por furacões de $2005$ e anos posteriores. 
+  
+  * A temporada de furacões vai de junho a novembro. Analisando cada mês separadamente, furacões com nome de mulher têm velocidade média maior do que furacões com nome de homem.
+  
+
+# Regressão linear
+
+* Faça gráficos e construa um modelo linear para velocidade e pressão (para todos os furacões).
+  
+* Examine os resíduos e escreva suas conclusões.
+
+
+# Outras inferências
+
+* Use o que você aprendeu no semestre para formular outras perguntas sobre estes dados e achar as respostas.
 
 
 <div style='height: 200px'></div>
