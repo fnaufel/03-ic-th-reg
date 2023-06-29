@@ -110,6 +110,11 @@ source(
   
 * Examine os resíduos e escreva suas conclusões.
 
+* Faça gráficos e construa um modelo linear para velocidade e prejuízo (para todos os furacões).
+  
+* Examine os resíduos e escreva suas conclusões.
+ 
+
 
 # Outras inferências
 
